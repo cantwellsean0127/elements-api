@@ -7,7 +7,6 @@ CREATE TABLE elements (
     symbol VARCHAR(255),
     atomic_number INT PRIMARY KEY,
     atomic_mass REAL,
-    electron_configuration_json VARCHAR(255),
     standard_state VARCHAR(255),
     melting_point REAL,
     boiling_point REAL,
