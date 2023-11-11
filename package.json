@@ -1,7 +1,7 @@
 {
   "name": "elements-api",
   "version": "1.0.0",
-  "description": "API for receiving information about different elements (elements on the periodic table, not HTML pages)",
+  "description": "API for receiving information about different elements on the periodic table. )",
   "main": "index.mjs",
   "scripts": {
     "server": "nodemon ./index.mjs"
