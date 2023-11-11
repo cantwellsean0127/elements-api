@@ -1,0 +1,3 @@
+- Change homepage so that the element cards are in a carasoul.
+- Add link to the homepage for users to navigate to the API homepage.
+- Add more information to the elements database (electron configuration, etc)

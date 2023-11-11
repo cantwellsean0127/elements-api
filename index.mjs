@@ -21,6 +21,7 @@ const start = () => {
     app.use(express.static("./public"))
     app.use(express.json())
 
+    app.get("/api", addHtmlExtension)
     app.get("/api/elements/:id?", readElements)
     app.use(sendPageNotFound)
 
@@ -69,6 +70,10 @@ const capitalize = (string) => {
 
 const sendPageNotFound = (req, res) => {
     res.redirect("/page-not-found.html")
+}
+
+const addHtmlExtension = (req, res) => {
+    res.redirect(req.url + ".html")
 }
 
 start()
