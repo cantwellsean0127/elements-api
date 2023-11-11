@@ -1,7 +1,7 @@
 # Periodic Table of Elements API
 
 ## Overview
-The Periodic Table of Elements API is a RESTful web service that provides comprehensive data about the chemical elements in the periodic table. It is designed to be simple, efficient, and easy to use for developers and educators in the field of chemistry and related sciences.
+The Periodic Table of Elements API is a web service that provides comprehensive data about the chemical elements in the periodic table. It is designed to be simple, efficient, and easy to use for developers and educators in the field of chemistry and related sciences.
 
 ## Features
 - **Get All Elements Endpoint**: Allows users to retrieve information about all elements in the periodic table.
@@ -37,3 +37,8 @@ The API returns data in JSON format, including:
 ## Additional Notes
 - This API is designed for educational and informational purposes.
 - Users should ensure their requests adhere to the specified endpoint formats for successful responses.
+- If an element's year of discovery is -1, this means said element has been known since ancient times and does not have a recorded year of discovery.
+- If an element's boiling point is -1, this means said element's boiling point is not well established.
+- If an element's melting point is -1, this means said element's melting point is not well established.
+- If an element's standard state is "Unknown", this means said element's standard state is not well established.
+- If an element's subcategory is "Unknown", this means said element's subcategory is not well established.
