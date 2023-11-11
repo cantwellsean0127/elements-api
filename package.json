@@ -1,0 +1,36 @@
+{
+  "name": "elements-api",
+  "version": "1.0.0",
+  "description": "Restful API for receiving information about different elements (elements on the periodic table, not HTML pages)",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cantwellsean0127/elements-api.git"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "elements",
+    "atoms",
+    "periodic",
+    "table"
+  ],
+  "author": "Sean Cantwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cantwellsean0127/elements-api/issues"
+  },
+  "homepage": "https://github.com/cantwellsean0127/elements-api#readme",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.error-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.error-page h2 {
+    font-size: 2em;
+}
+
+.error-page p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.error-page a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}

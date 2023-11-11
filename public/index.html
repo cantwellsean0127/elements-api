@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Periodic Table of Elements API</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Periodic Table Elements of API</h1>
+    </header>
+
+    <div class="container">
+
+        <section id="how-to-use">
+            <h2>How to Use the API</h2>
+            <p>This API provides information about elements on the periodic table. Below are the available endpoints:
+            </p>
+
+            <div class="api-endpoint">
+                <h3>Get All Elements</h3>
+                <p><strong>Endpoint:</strong> <a href="/api/elements"><code>/api/elements</code></a></p>
+                <p>Sends a GET request to retrieve a JSON object containing an array of all elements.</p>
+            </div>
+
+            <div class="api-endpoint">
+                <h3>Get Specific Element</h3>
+                <p><strong>Endpoint:</strong> <a href="/api/elements/79"><code>/api/elements/{id}</code></a></p>
+                <p>Send a GET request where <code>{id}</code> is the element's name, symbol, or atomic number to
+                    retrieve a JSON object representing a specific element. For
+                    example, "Hydrogen" or "Gold" for names, "H" or "Au" for symbols, and 1 or 79 for atomic numbers.
+                    There is no need for you to specify which property you're using as the ID since the API
+                    will automatically determine this. The ID is also <strong>not</strong> case sensitive.</p>
+            </div>
+        </section>
+
+        <section id="response-structure">
+            <h2>Response Structure</h2>
+            <p>The information returned from the API includes:</p>
+            <ul>
+                <li>Name</li>
+                <li>Symbol</li>
+                <li>Atomic Number</li>
+                <li>Atomic Mass</li>
+                <li>Standard State</li>
+                <li>Melting Point (Kelvin)</li>
+                <li>Boiling Point (Kelvin)</li>
+                <li>Subcategory (Metal, Nonmetal, Noble Gas, etc)</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
