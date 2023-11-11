@@ -1,7 +1,7 @@
 # Periodic Table of Elements API
 
 ## Overview
-The Periodic Table of Elements API is a RESTful web service that provides comprehensive data about the chemical elements in the periodic table. It is designed to be simple, efficient, and easy to use for developers and educators in the field of chemistry and related sciences.
+The Periodic Table of Elements API is a web service that provides comprehensive data about the chemical elements in the periodic table. It is designed to be simple, efficient, and easy to use for developers and educators in the field of chemistry and related sciences.
 
 ## Features
 - **Get All Elements Endpoint**: Allows users to retrieve information about all elements in the periodic table.
