@@ -1,10 +1,9 @@
 {
   "name": "elements-api",
   "version": "1.0.0",
-  "description": "Restful API for receiving information about different elements (elements on the periodic table, not HTML pages)",
+  "description": "API for receiving information about different elements (elements on the periodic table, not HTML pages)",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon ./index.mjs"
   },
   "repository": {
@@ -12,7 +11,6 @@
     "url": "git+https://github.com/cantwellsean0127/elements-api.git"
   },
   "keywords": [
-    "Restful",
     "API",
     "elements",
     "atoms",
